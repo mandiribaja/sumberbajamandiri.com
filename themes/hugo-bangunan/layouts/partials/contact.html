@@ -1,0 +1,15 @@
+{{- /* Mengembalikan dict{tel, wa} dari params.telepon / params.whatsapp (format sama dengan betoncorplus). Kosong jika belum diisi. */ -}}
+{{- $tel := "" -}}{{- $wa := "" -}}
+{{- if and site.Params.telepon (ne site.Params.enableTelepon false) -}}
+  {{- $n := replaceRE `[^0-9+]` "" (printf "%v" site.Params.telepon) -}}
+  {{- if hasPrefix $n "0" -}}{{- $n = printf "+62%s" (strings.TrimPrefix "0" $n) -}}
+  {{- else if hasPrefix $n "62" -}}{{- $n = printf "+%s" $n -}}
+  {{- end -}}
+  {{- $tel = printf "tel:%s" $n | safeURL -}}
+{{- end -}}
+{{- with site.Params.whatsapp -}}
+  {{- if ne site.Params.enableWhatApps false -}}
+    {{- if hasPrefix . "//" }}{{ $wa = printf "https:%s" . }}{{ else }}{{ $wa = . }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+{{- return (dict "tel" $tel "wa" $wa) -}}
