@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "items": [
+            { "name": "Besi Beton Polos & Ulir", "url": "#", "image": "/images/polos-ulir/besi-polos-ulir-1.png" }
+        ]
+    },
+    {
+        "id": 1,
+        "items": [
+            { "name": "Wiremesh", "url": "#", "image": "/images/wiremesh/wiremesh-ulir-1.png" }
+        ]
+    },
+    {
+        "id": 2,
+        "items": [
+            { "name": "Besi Hollow", "url": "#", "image": "/images/hollow/besi-hollow-1.png" }
+        ]
+    },
+    {
+        "id": 3,
+        "items": [
+            { "name": "Pipa Besi", "url": "#", "image": "/images/pipa/besi-pipa-1.png" }
+        ]
+    },
+    {
+        "id": 4,
+        "items": [
+            { "name": "Besi Siku", "url": "#", "image": "/images/siku/besi-siku-1.png" }
+        ]
+    },
+    {
+        "id": 5,
+        "items": [
+            { "name": "Baja INP, UNP, CNP", "url": "#", "image": "/images/cnp-unp/besi-inp-cnp-unp-1.png" }
+        ]
+    }
+]
