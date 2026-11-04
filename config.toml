@@ -21,8 +21,8 @@ disableKinds = ["taxonomy", "term"]
     # ---- Kontak (ISI SEBELUM DEPLOY; jika kosong, tombol telepon/WA otomatis tersembunyi) ----
     email = "sumberbajamandiribogor@gmail.com"
     phone = "0878-7414-2109"
-    telepon = "//+6287874142109"
-    whatsapp = "//api.whatsapp.com/send?phone=6287874142109&text=Halo%20Sumber%20Baja%20Mandiri%20"
+    telepon = "//+6281216701109"
+    whatsapp = "//api.whatsapp.com/send?phone=6281216701109&text=Halo%20Sumber%20Baja%20Mandiri%20"
     address = "Jl. Pangkalan 2 No.12, RT.02/RW.02, Kedunghalang, Kec. Bogor Utara, Kota Bogor, Jawa Barat 16158"
     year = 2026
     DateForm = "2 January 2006"
@@ -54,12 +54,12 @@ disableKinds = ["taxonomy", "term"]
 
     # ---- Halaman Promo (/promo/) ----
     # Isi harga ASLI di [[params.promoItems]] di bawah. Countdown hanya tampil jika promoEndDate diisi.
-    checkoutWa = "6287874142109"
+    checkoutWa = "6281216701109"
     # ---- Kontak tim ----
-    contactNurul = "087874142109"
+    contactNurul = "081216701109"
     contactNurulName = "NURUL"
-    contactEky = "081398299172"
-    contactEkyName = "EKY"
+    contactEky = "082249937697"
+    contactEkyName = "ASTRI"
     contactKantor = "085219720998"
     contactKantorName = "KANTOR"
     # promoEndDate = "2026-12-31T23:59:59"
@@ -68,7 +68,7 @@ disableKinds = ["taxonomy", "term"]
     # Bagian yang kosong otomatis tidak ditampilkan.
     nameuser = "Sumber Baja Mandiri"
     jobuser = "Distributor Besi dan Baja Konstruksi"
-    phoneuser = "0878-7414-2109 (NURUL) / 0813-9829-9172 (EKY) / 0852-1972-0998 (KANTOR)"
+    phoneuser = "0812-1670-1109 (NURUL) / 0822-4993-7697 (ASTRI) / 0852-1972-0998 (KANTOR)"
     emailuser = "sumberbajamandiribogor@gmail.com"
     addressuser = "Jl. Pangkalan 2 No.12, RT.02/RW.02, Kedunghalang, Kec. Bogor Utara, Kota Bogor, Jawa Barat 16158"
     website = "https://sumberbajamandiri.com"
