@@ -1,4 +1,12 @@
-{{- /* Mengembalikan dict{tel, wa} dari params.telepon / params.whatsapp (format sama dengan betoncorplus). Kosong jika belum diisi. */ -}}
+{{- /*
+  Mengembalikan dict{tel, wa}.
+  tel: SELALU berbentuk "tel:+62xxxxxxxxxx" (standar RFC 3966) agar ponsel langsung membuka dialer.
+       Nilai params.telepon boleh ditulis "//+6287777222248", "+62 877-7722-2248", atau "0877-7722-2248";
+       semua dinormalkan (karakter selain angka dan + dibuang, awalan 0 menjadi +62, awalan 62 menjadi +62).
+  wa : dari params.whatsapp (format sama dengan betoncorplus). Kosong jika belum diisi.
+  CATATAN: nilai tel ditandai safeURL. Tanpa itu Hugo mengganti href="tel:..." dari variabel menjadi "#ZgotmplZ"
+  (skema tel: tidak dianggap aman), sehingga tombol telepon tidak menelepon.
+*/ -}}
 {{- $tel := "" -}}{{- $wa := "" -}}
 {{- if and site.Params.telepon (ne site.Params.enableTelepon false) -}}
   {{- $n := replaceRE `[^0-9+]` "" (printf "%v" site.Params.telepon) -}}

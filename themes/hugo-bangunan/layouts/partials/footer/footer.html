@@ -14,7 +14,7 @@
     <div class="widget">
       <h3 class="widget-title">{{ i18n "footer_contact_title" }}</h3>
       <p>
-        {{ with site.Params.phone }}Tlp: {{ . }}<br>{{ end }}
+        {{ with site.Params.phone }}Tlp: <a href="{{ (partialCached "contact.html" "x").tel | default (printf "tel:%s" (replaceRE `[^0-9+]` "" .)) | safeURL }}">{{ . }}</a><br>{{ end }}
         {{ with site.Params.email }}Email: <a href="mailto:{{ . }}">{{ . }}</a><br>{{ end }}
         {{ with site.Params.address }}<br>Alamat: {{ . }}{{ end }}
       </p>

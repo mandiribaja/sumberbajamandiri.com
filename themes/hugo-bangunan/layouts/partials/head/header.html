@@ -11,7 +11,7 @@
         {{ if or site.Params.email site.Params.phone }}
         <p class="head-contact">
           {{ with site.Params.email }}<a href="mailto:{{ . }}">Email: {{ . }}</a>{{ end }}
-          {{ with site.Params.phone }}<a href="tel:{{ $.Site.Params.telepon | default . }}">WA: {{ . }}</a>{{ end }}
+          {{ with site.Params.phone }}<a href="{{ (partialCached "contact.html" "x").tel | default (printf "tel:%s" (replaceRE `[^0-9+]` "" .)) | safeURL }}">Telp/WA: {{ . }}</a>{{ end }}
         </p>
         {{ end }}
       </div>
