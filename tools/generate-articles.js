@@ -144,7 +144,7 @@ const CONFIG = {
   // ARTICLE_FOLDER (= content/categories/blog/, linked as "Blog" in the main menu).
   // CONTENT_DIR is the parent of all those folders and is used for slug-duplicate / similarity
   // checks across every category.
-  CONTENT_DIR     : path.join(__dirname, '..', 'content', 'categories'),
+  CONTENT_DIR     : path.join(__dirname, '..', 'content'),
   // Full content/ root, used ONLY for building the internal-link candidate index below.
   CONTENT_ROOT_DIR: path.join(__dirname, '..', 'content'),
   IMAGES_DIR      : path.join(__dirname, '..', 'static', 'images'),
@@ -387,6 +387,10 @@ async function fetchKeywordsFromGSC() {
   }
 
   console.log('📊 Fetching keywords from Google Search Console...');
+  if (!CONFIG.GSC_CREDENTIALS.client_email || !CONFIG.GSC_CREDENTIALS.private_key) {
+    console.log('   ⚠️  GSC_CREDENTIALS kosong/tidak valid — melewati Google Search Console (lanjut ke Serper / keywords.txt).');
+    return [];
+  }
   const token   = await getGSCAccessToken();
   const endDate = new Date();
   const startDate = new Date();
@@ -1414,7 +1418,6 @@ function validateArticle(filePath) {
   if (!content.includes('date:'))           issues.push('❌ date tidak ada');
   if (!content.includes('description:'))    issues.push('❌ description tidak ada');
   if (!content.includes('featured_image:')) issues.push('❌ featured_image tidak ada');
-  if (!content.includes('categories:'))     issues.push('❌ categories tidak ada');
   if (!content.includes('focus_keyphrase:')) issues.push('❌ focus_keyphrase tidak ada');
   if (!content.includes('toc: true'))       issues.push('⚠️  toc tidak aktif');
 
@@ -1539,7 +1542,7 @@ async function main() {
   if (!IS_DRY_RUN) {
     if (CONFIG.CF_API_TOKENS.length === 0) throw new Error('CLOUDFLARE_API_TOKEN not found.');
     if (CONFIG.CF_ACCOUNT_IDS.length === 0) throw new Error('CLOUDFLARE_ACCOUNT_ID not found.');
-    if (!CONFIG.GSC_CREDENTIALS.client_email) throw new Error('Invalid GSC_CREDENTIALS.');
+    if (!CONFIG.GSC_CREDENTIALS.client_email) console.log('⚠️  GSC_CREDENTIALS belum diisi — Google Search Console dilewati; keyword diambil dari Serper / keywords.txt.');
     if (CONFIG.CF_API_TOKENS.length > 1) {
       const rotationKind = CONFIG.CF_ACCOUNT_IDS.length > 1
         ? `${CONFIG.CF_API_TOKENS.length} account+token pairs`
@@ -1551,7 +1554,7 @@ async function main() {
   const keywords = await fetchKeywordsFromGSC();
 
   const existingSlugs = getExistingSlugs();
-  console.log(`\n📁 ${existingSlugs.size} articles already exist in content/categories/`);
+  console.log(`\n📁 ${existingSlugs.size} articles already exist in content/`);
 
   function selectFromSource(rawKeywords, label) {
     if (!rawKeywords.length) return [];
@@ -1653,12 +1656,12 @@ async function main() {
     const slug = toSlug(item.keyword);
     console.log(`\n[${toProcess.indexOf(item) + 1}/${toProcess.length}] "${item.keyword}"`);
     console.log(`   📊 Impressions: ${item.impressions} | Position: ${item.position.toFixed(1)} | CTR: ${(item.ctr*100).toFixed(1)}%`);
-    console.log(`   🔑 Slug: ${slug} | Folder: categories/${detectArticleCategory()}`);
+    console.log(`   🔑 Slug: ${slug} | Folder: ${detectArticleCategory()}`);
 
     try {
       const categoryHint = guessCategoryHint(item.keyword, knownCategories);
       const relatedCandidates = findRelatedCandidates(
-        { text: item.keyword, excludeUrl: `/categories/${detectArticleCategory()}/${slug}/`, categoryHint },
+        { text: item.keyword, excludeUrl: `/${detectArticleCategory()}/${slug}/`, categoryHint },
         articleIndex,
         { max: 6 }
       );

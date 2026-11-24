@@ -51,7 +51,7 @@ jobs:
         id: commit_push
         run: |
           # orphans.json is NOT committed — it's regenerated fresh by Layer 1 every run.
-          git add content/categories/
+          git add content/
           [ -f orphan-fixes.log ] && git add orphan-fixes.log
           [ -f .orphan-fix-progress.json ] && git add .orphan-fix-progress.json
 

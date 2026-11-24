@@ -81,7 +81,7 @@ const CONFIG = {
   CF_API_TOKENS : parseTokens(process.env.CLOUDFLARE_API_TOKEN),
   HOST        : 'api.cloudflare.com',
   MODEL       : '@cf/aisingapore/gemma-sea-lion-v4-27b-it',
-  TIMEOUT_MS  : 60000,
+  TIMEOUT_MS  : 180000,   // log produksi: 1 panggilan AI ≈ 58 dtk; batas lama 60 dtk membuat banyak revisi timeout
   MAX_RETRIES_PER_ARTICLE: 2,
   BRAND       : 'Sumber Baja Mandiri',
 };
@@ -196,8 +196,8 @@ function httpRequest(hostname, reqPath, options, body, timeoutMs = CONFIG.TIMEOU
   });
 }
 
-async function callAI(messages, retries = 3) {
-  const body = JSON.stringify({ model: CONFIG.MODEL, messages, temperature: 0.9, max_tokens: 4096 });
+async function callAI(messages, retries = 3, maxTokens = 4096) {
+  const body = JSON.stringify({ model: CONFIG.MODEL, messages, temperature: 0.9, max_tokens: maxTokens });
   let keysTriedThisCall = 0;
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
@@ -278,8 +278,29 @@ function protectStructure(content) {
     placeholders.push(match);
     return `[[[PLACEHOLDER_${idx}]]]`;
   });
+  // Tabel Markdown (| a | b |): SELURUH blok dilindungi agar AI tidak bisa mengubah harga, ukuran, atau kolom.
+  protectedContent = protectedContent.replace(/(?:^[ \t]*\|[^\n]*\|[ \t]*(?:\r?\n|$))+/gm, (match) => {
+    const idx = placeholders.length;
+    placeholders.push(match.replace(/\s+$/, ''));
+    return `[[[PLACEHOLDER_${idx}]]]` + (/\n$/.test(match) ? '\n' : '');
+  });
+  // Tabel HTML <table>...</table>
+  protectedContent = protectedContent.replace(/<table[\s\S]*?<\/table>/gi, (match) => {
+    const idx = placeholders.length;
+    placeholders.push(match);
+    return `[[[PLACEHOLDER_${idx}]]]`;
+  });
 
   return { protectedContent, placeholders };
+}
+
+// Hanya bagian awal artikel (≈ HEAD_CHARS karakter, dipotong di batas heading/paragraf) yang dikirim ke AI;
+// sisanya (tail) disambung kembali apa adanya. Log produksi: AI sering meringkas artikel 11 KB menjadi 70-79%
+// (ditolak oleh batas 80%), memotong placeholder tabel, atau timeout. Teks yang lebih pendek jauh lebih stabil.
+const FULL_MAX_CHARS = 7000;
+const HEAD_CHARS     = 6000;
+function maxTokensFor(text) {
+  return Math.min(8192, Math.max(4096, Math.ceil(text.length / 2.6) + 700));
 }
 
 function restoreStructure(content, placeholders) {
@@ -444,12 +465,22 @@ async function main() {
     const parsed = matter(raw);
     const title = parsed.data.title || candData.titles[url].title;
     const location = extractLocation(title);
-    // This site stores `categories: "[folder]"` (a string) — arrays are handled too.
-    const category = Array.isArray(parsed.data.categories) ? parsed.data.categories.join(', ') : String(parsed.data.categories || '').replace(/^\[|\]$/g, '');
+    // Kategori = folder di bawah content/ (content/<folder>/slug.md); artikel di root content/ = "Besi dan Baja".
+    const relParts = path.relative(CONTENT_DIR, filePath).replace(/\\/g, '/').split('/');
+    const category = relParts.length > 1 ? relParts[0] : 'Besi dan Baja';
 
     log(`📝 [${processed}/${Math.min(LIMIT, todo.length)}] ${title}`);
 
-    const { protectedContent, placeholders } = protectStructure(parsed.content);
+    const prot = protectStructure(parsed.content);
+    const placeholders = prot.placeholders;
+    let protectedContent = prot.protectedContent;
+    // Artikel > FULL_MAX_CHARS: kirim hanya bagian awal ke AI, simpan sisanya (tail) untuk disambung kembali.
+    let tailProtected = '';
+    if (protectedContent.length > FULL_MAX_CHARS) {
+      let cut = Math.max(protectedContent.lastIndexOf('\n## ', HEAD_CHARS), protectedContent.lastIndexOf('\n### ', HEAD_CHARS));
+      if (cut <= 2000) cut = protectedContent.lastIndexOf('\n\n', HEAD_CHARS);   // tak ada heading: potong di batas paragraf
+      if (cut > 2000) { tailProtected = protectedContent.slice(cut); protectedContent = protectedContent.slice(0, cut); }
+    }
     const tArticle = Date.now();
 
     const categoryHint = guessCategoryHint(title, knownCategories);
@@ -462,8 +493,12 @@ async function main() {
 
     try {
       const messages = buildPrompt(title, location || '(not detected)', category, protectedContent, formatCandidatesForPrompt(relatedCandidates));
-      let revisedProtected = await callAI(messages); // always call AI, including dry-run, to preview
+      let revisedProtected = await callAI(messages, 3, maxTokensFor(protectedContent)); // always call AI, including dry-run, to preview
       revisedProtected = cleanupAIChatter(revisedProtected);
+      if (tailProtected) {
+        revisedProtected = revisedProtected.replace(/\s+$/, '') + '\n\n' + tailProtected.replace(/^\n+/, '');
+        log(`   ✂️  Artikel panjang: hanya bagian awal (${protectedContent.length} karakter) yang direvisi, sisanya tetap.`);
+      }
 
       const placeholderIssues = validatePlaceholders(revisedProtected, placeholders);
       if (placeholderIssues.length > 0) {

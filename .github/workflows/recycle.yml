@@ -54,7 +54,7 @@ jobs:
           # static/ is included because recycle-posts.js's IndexNow integration
           # (tools/lib/index-ping.js) creates a one-time verification file at static/<key>.txt;
           # .indexnow-key.json remembers the same key across runs.
-          git add content/categories/ public/ static/
+          git add content/ public/ static/
           [ -f .indexnow-key.json ] && git add .indexnow-key.json
 
           if git diff --staged --quiet; then

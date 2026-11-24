@@ -50,7 +50,7 @@ jobs:
       - name: Commit and Push Revisions
         id: commit_push
         run: |
-          git add content/categories/
+          git add content/
           [ -f revised-articles.log ] && git add revised-articles.log
           [ -f .revise-progress.json ] && git add .revise-progress.json
 

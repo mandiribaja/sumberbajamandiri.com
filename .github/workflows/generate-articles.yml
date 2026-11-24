@@ -57,7 +57,7 @@ jobs:
       - name: Commit and Push Articles
         id: commit_push
         run: |
-          git add content/categories/
+          git add content/
           [ -f generated-articles.log ] && git add generated-articles.log
           [ -d static/images/artikel ] && git add static/images/artikel/
           [ -f keywords.txt ] && git add keywords.txt
