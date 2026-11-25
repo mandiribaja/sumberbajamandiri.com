@@ -1,6 +1,7 @@
 ---
 title: "Harga Terbaru Baja CNP di Bualan Maret"
 date: "2024-08-12"
+lastmod: "2026-11-25"
 categories: "cnp-unp"
 toc: true
 draft: false
@@ -9,37 +10,21 @@ description: "Harga Terbaru Baja CNP di Bualan Maret – Selamat datang di suppl
 meta_title: "Harga Terbaru Baja CNP di Bualan Maret | Sumber Baja Mandiri"
 focus_keyphrase: "harga terbaru baja cnp di bualan maret"
 ---
+**Harga Terbaru Baja CNP di Bualan Maret** – Mencari solusi material konstruksi terpercaya di Bualan Maret? Sumber Baja Mandiri hadir sebagai mitra Anda. Kami menyediakan berbagai jenis besi berkualitas tinggi, termasuk besi beton, wiremesh, hollow, dan baja profil, untuk mewujudkan proyek konstruksi Anda dengan kokoh dan aman.
 
-**Harga Terbaru Baja CNP di Bualan Maret** – Selamat datang di supplier besi terpercaya yang memberikan beragam komoditas besi berkualitas untuk keperluan proyek konstruksi para konsumen. Perusahaan kami menjual berbagai macam jenis besi, dari besi tulangan, besi L, Pipa kotak, balk WF, serta banyak lagi.
-
-Dalam menawarkan produk besi, kami tetap memperhatikan mutu dan keamanannya. Semua barang yang tersedia melalui pemilihan yang ketat dan cermat, sehingga para konsumen mendapatkan barang besi yang berkualitas baik dan awet
-
-Tidak hanya itu, tim kami juga menyediakan pelayanan pengiriman menuju seluruh daerah di Jakarta, Bogor, Depok, Tangerang, Bekasi, wilayah jawa barat dan daerah banten, dengan honorarium yang terjangkau. Kami akan menjamin bahwa barang yang dipesan akan sampai ke tempat Anda dengan terlindungi dan tidak terlambat.
+Kami memahami bahwa kekuatan sebuah bangunan dimulai dari pemilihan material yang tepat. Oleh karena itu, setiap produk yang kami tawarkan melalui proses seleksi ketat, memastikan mutu dan keawetan yang terjamin. Kami berkomitmen menyediakan solusi besi terbaik bagi setiap kebutuhan konstruksi Anda di Bualan Maret.
 
 ![Harga Terbaru Baja CNP di Bualan Maret](/images/cnp-unp/besi-inp-cnp-unp-13.png)
 
-## Beberapa jenis besi yang kami jual di Bualan Maret
+## Ragam Pilihan Besi Konstruksi di Bualan Maret
 
-Di bawah ini adalah jenis-jenis besi yang bisa Anda dapatkan dari ketersediaan stok yang banyak dari berbagai merk beton. Sangat cocok untuk mendukung proyek pengerjaan bangunan para konsumen dan dibawah ini keterangan spesifikasi secara komplitnya.
+Sumber Baja Mandiri menawarkan beragam jenis besi untuk memenuhi kebutuhan proyek Anda di Bualan Maret. Dengan stok yang melimpah dari berbagai merek terkemuka, kami siap mendukung kelancaran pengerjaan bangunan Anda. Berikut adalah beberapa produk unggulan kami:
 
 ![Harga Terbaru Baja CNP di Bualan Maret](/images/polos-ulir/besi-polos-ulir-12.png)
 
-### Besi Beton Polos
+### Besi Beton Polos: Fondasi Kokoh Proyek Anda
 
-Besi beton polos adalah varian besi beton yang tanpa memiliki penguatan atau tulangan pada permukaannya. Berikut adalah spesifikasi dan keterangan besi beton polos yang dijual:
-
-| Diameter (mm) | Berat (kg/m) | Panjang (m) |
-| --- | --- | --- |
-| 6 | 0.222 | 6 – 12 |
-| 8 | 0.395 | 6 – 12 |
-| 10 | 0.617 | 6 – 12 |
-| 12 | 0.888 | 6 – 12 |
-| 16 | 1.58 | 6 – 12 |
-| 20 | 2.47 | 6 – 12 |
-
-### Besi Beton Ulir
-
-Besi beton ulir adalah tipe besi beton yang memiliki reinforcement pada bagian luarnya. Tulangan ini berbentuk kemiringan, sehingga menguatkan struktur beton. Berikut adalah ukuran dan spesifikasi besi beton ulir yang tersedia:
+Besi beton polos merupakan pilihan ideal untuk berbagai aplikasi konstruksi. Tanpa tulangan pada permukaannya, besi ini memberikan kekuatan dasar yang handal. Berikut adalah spesifikasi besi beton polos yang tersedia:
 
 | Diameter (mm) | Berat (kg/m) | Panjang (m) |
 | --- | --- | --- |
@@ -50,13 +35,26 @@ Besi beton ulir adalah tipe besi beton yang memiliki reinforcement pada bagian l
 | 16 | 1.58 | 6 – 12 |
 | 20 | 2.47 | 6 – 12 |
 
-Mohon dicatat spesifikasi dan spesifikasi besi beton polos dan ulir dapat berbeda sesuai pada keperluan proyek pembangunan Anda. Mohon hubungi tim kami di telepon atau email yang tersedia di situs kami untuk informasi lebih lanjut mengenai produk kami atau untuk konsultasi mengenai kebutuhan konstruksi Anda.
+### Besi Beton Ulir: Kekuatan Optimal dengan Tulangan
 
-### Besi Wiremesh
+Besi beton ulir dilengkapi dengan reinforcement berupa tulangan pada permukaannya, memberikan cengkeraman yang lebih kuat dengan beton. Struktur ini meningkatkan daya tahan dan kekuatan bangunan secara signifikan. Berikut adalah ukuran dan spesifikasi besi beton ulir yang kami sediakan:
+
+| Diameter (mm) | Berat (kg/m) | Panjang (m) |
+| --- | --- | --- |
+| 6 | 0.222 | 6 – 12 |
+| 8 | 0.395 | 6 – 12 |
+| 10 | 0.617 | 6 – 12 |
+| 12 | 0.888 | 6 – 12 |
+| 16 | 1.58 | 6 – 12 |
+| 20 | 2.47 | 6 – 12 |
+
+Perlu diingat, spesifikasi besi beton polos dan ulir dapat disesuaikan dengan kebutuhan spesifik proyek Anda. Jangan ragu untuk menghubungi tim kami melalui telepon atau email yang tertera di situs web kami untuk mendapatkan informasi lebih lanjut atau konsultasi kebutuhan konstruksi Anda.
+
+### Wiremesh: Penguatan Optimal untuk Struktur Beton
 
 ![Harga Terbaru Baja CNP di Bualan Maret](/images/wiremesh/wiremesh-ulir-9.png)
 
-Material baja wiremesh adalah jenis besi berbentuk lembaran dengan susunan kawat baja yang dihubungkan dengan cara disusun dan dilas membentuk rangkaian. Wiremesh sering digunakan sebagai penguat pada struktur beton seperti pelat lantai, kolom, dan dinding. Berikut adalah spesifikasi dan spesifikasi besi wiremesh yang tersedia:
+Wiremesh, atau besi kawat las, merupakan anyaman kawat baja yang dilas menjadi satu lembaran. Material ini berfungsi sebagai penguat pada struktur beton seperti pelat lantai, kolom, dan dinding. Berikut adalah spesifikasi dan ukuran besi wiremesh yang tersedia:
 
 | Ukuran (mm) | Berat (kg/m2) | Panjang (m) | Lebar (m) |
 | --- | --- | --- | --- |
@@ -67,35 +65,35 @@ Material baja wiremesh adalah jenis besi berbentuk lembaran dengan susunan kawat
 | 10 x 10 | 16.67 | 2.4 – 5.4 | 1.2 – 2.4 |
 | 12 x 12 | 23.53 | 2.4 – 5.4 | 1.2 – 2.4 |
 
-Harap dicatat bahwa dimensi dan spesifikasi besi wiremesh dapat bervariasi tergantung pada tuntutan proyek konstruksi Anda. Silakan hubungi tim kami di kontak atau email yang tersedia di situs web kami untuk kabar tambahan mengenai produk kami atau untuk konsultasi mengenai kebutuhan konstruksi Anda.
+Dimensi dan spesifikasi besi wiremesh dapat bervariasi tergantung pada tuntutan proyek konstruksi Anda. Hubungi tim kami melalui kontak atau email yang tertera di situs web kami untuk informasi tambahan atau konsultasi terkait kebutuhan konstruksi Anda.
 
-#### Ukuran Besi Wiremesh pada Cor Dak Lantai
+#### Pemilihan Ukuran Wiremesh untuk Cor Dak Lantai
 
-Besi wiremesh biasanya digunakan sebagai penguat pada konstruksi beton seperti plat lantai, kolom, dan dinding. Untuk cor dak lantai, ukuran besi wiremesh yang sesuai tergantung pada muatan yang akan dibebankan oleh lantai tersebut. Berikut adalah beberapa ukuran besi wiremesh yang cocok untuk cor dak lantai:
+Wiremesh berperan penting dalam memperkuat struktur cor dak lantai. Pemilihan ukuran yang tepat bergantung pada beban yang akan ditanggung oleh lantai tersebut. Berikut beberapa rekomendasi ukuran:
 
 - Ukuran 5 x 5 dengan tebal besi 6 mm
 - Ukuran 6 x 6 dengan tebal besi 6 – 7 mm
 - Ukuran 7 x 7 dengan tebal besi 7 – 8 mm
 - Ukuran 8 x 8 dengan tebal besi 8 – 9 mm
 
-Harap dicatat bahwa dimensi besi wiremesh yang sesuai untuk cor dak lantai dapat berbeda tergantung pada muatan yang dibebankan dan kebutuhan proyek konstruksi Anda. Anda bisa hubungi tim kami di nomor telepon atau surel yang tersedia di website kami untuk informasi lebih lanjut mengenai produk kami atau untuk sarana berkonsultasi mengenai kebutuhan konstruksi Anda.
+Ukuran besi wiremesh yang paling sesuai untuk cor dak lantai akan bervariasi tergantung pada beban dan kebutuhan proyek Anda. Konsultasikan dengan tim kami di nomor telepon atau email yang tersedia di situs web kami untuk mendapatkan rekomendasi yang tepat.
 
-#### Dimensi Besi Wiremesh pada Pagar
+#### Ukuran Wiremesh untuk Aplikasi Pagar
 
-Besi wiremesh bisa digunakan sebagai bahan untuk membuat pagar. Ukuran besi wiremesh yang cocok untuk pagar tergantung pada tujuan dan kebutuhan pagar tersebut. Di bawah ini adalah beberapa ukuran besi wiremesh yang cocok untuk membuat pagar:
+Wiremesh juga dapat dimanfaatkan sebagai material utama pembuatan pagar. Pemilihan ukuran yang tepat bergantung pada fungsi dan persyaratan pagar yang Anda inginkan. Berikut adalah beberapa pilihan ukuran:
 
 - Ukuran 5 x 5 dengan tebal besi 4 – 5 mm
 - Ukuran 6 x 6 dengan tebal besi 5 – 6 mm
 - Ukuran 7 x 7 dengan tebal besi 6 – 7 mm
 - Ukuran 8 x 8 dengan tebal besi 7 – 8 mm
 
-Harap dicatat bahwa dimensi besi wiremesh yang sesuai untuk pagar dapat bervariasi bergantung pada tujuan dan persyaratan pagar Anda. Anda bisa hubungi tim kami di telepon atau email yang tersedia di situs web kami untuk informasi lebih lanjut tentang produk kami atau untuk sarana berkonsultasi mengenai kebutuhan konstruksi Anda.
+Dimensi besi wiremesh yang ideal untuk pagar akan bergantung pada tujuan dan kebutuhan spesifik Anda. Hubungi tim kami di telepon atau email yang tertera di situs web kami untuk informasi lebih lanjut.
 
-### Material besi Hollow
+### Pilihan Material Besi Hollow untuk Konstruksi
 
 ![Harga Terbaru Baja CNP di Bualan Maret](/images/hollow/besi-hollow-16.png)
 
-Besi hollow merupakan jenis besi berongga dengan bentuk penampang yang variatif, seperti persegi dan persegi panjang. Besi hollow sering digunakan sebagai komponen pembangunan untuk struktur bangunan seperti kolom, balok, dan rangka atap. Berikut adalah beberapa ukuran besi hollow yang umum digunakan:
+Besi hollow, dengan bentuk penampang berongga yang beragam – persegi dan persegi panjang – adalah komponen penting dalam struktur bangunan. Material ini umumnya digunakan untuk kolom, balok, dan rangka atap. Berikut adalah beberapa ukuran besi hollow yang umum digunakan:
 
 - Besi Hollow Persegi Panjang Ukuran 20 x 40 mm dengan tebal 1.2 – 2.3 mm
 - Besi Hollow Persegi Panjang Ukuran 25 x 50 mm dengan tebal 1.2 – 2.3 mm
@@ -108,7 +106,24 @@ Besi hollow merupakan jenis besi berongga dengan bentuk penampang yang variatif,
 - Besi Hollow Persegi Ukuran 40 x 40 mm dengan tebal 1.2 – 2.3 mm
 - Besi Hollow Persegi Ukuran 50 x 50 mm dengan tebal 1.8 – 3.0 mm
 
-Mohon diingat bahwa ukuran besi hollow dapat berbeda tergantung pada kebutuhan proyek konstruksi Anda. Silakan hubungi tim kami di telepon atau surel yang tersedia di situs web kami untuk keteranga tambahan mengenai produk kami atau untuk konsultasi mengenai kebutuhan konstruksi Anda.
+Ukuran besi hollow yang tepat akan bergantung pada kebutuhan spesifik proyek Anda. Jangan ragu untuk menghubungi tim kami di telepon atau email yang ada di situs web kami untuk konsultasi dan informasi lebih lanjut.
+
+
+<table class="table">
+  <caption>Spesifikasi Baja CNP</caption>
+  <thead>
+    <tr><th>Ukuran (mm)</th><th>Tebal Flens (mm)</th><th>Tebal Badan (mm)</th><th>Berat (kg/m)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>50</td><td>5</td><td>2.3</td><td>2.25</td></tr>
+    <tr><td>65</td><td>6.5</td><td>2.3</td><td>3.27</td></tr>
+    <tr><td>75</td><td>6.5</td><td>2.3</td><td>4.82</td></tr>
+    <tr><td>100</td><td>8</td><td>2.3</td><td>7.33</td></tr>
+  </tbody>
+</table>
+
+
+Untuk informasi lebih rinci mengenai harga dan ketersediaan produk, silakan lihat [[[PLACEHOLDER_N]]] atau hubungi kami langsung. Kami siap memberikan penawaran terbaik untuk proyek konstruksi Anda di Bualan Maret. Percayakan kebutuhan besi Anda kepada Sumber Baja Mandiri – mitra terpercaya Anda dalam membangun masa depan.
 
 ### Baja CNP
 
