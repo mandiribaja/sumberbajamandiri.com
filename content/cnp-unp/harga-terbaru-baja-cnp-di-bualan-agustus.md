@@ -112,7 +112,7 @@ Untuk informasi harga terbaru dan detail produk, silakan merujuk pada tabel [[[P
 
 ![Harga Terbaru Baja CNP di Bualan Agustus](/images/cnp-unp/besi-inp-cnp-unp-3.png)
 
-Material besi INP, UNP, dan CNP merupakan jenis besi yang sering digunakan sebagai bahan konstruksi untuk bangunan seperti balok, tiang, dan rangka atap. Berikut adalah beberapa ukuran besi INP, UNP, dan CNP yang sering digunakan:
+Material besi INP, UNP, dan CNP merupakan jenis besi yang sering digunakan sebagai bahan konstruksi untuk bangunan seperti balok, tiang, dan rangka atap. [Pelajari lebih lanjut tentang harga terbaru baja CNP](/cnp-unp/harga-terbaru-baja-cnp-di-bualan-oktober/) untuk proyek Anda. Berikut adalah beberapa ukuran besi INP, UNP, dan CNP yang sering digunakan:
 
 #### Besi INP
 
