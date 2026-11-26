@@ -13,14 +13,30 @@
     "/cnp-unp/harga-terbaru-baja-inp-di-bualan-agustus/",
     "/cnp-unp/harga-terbaru-baja-inp-di-bualan-juli/",
     "/cnp-unp/harga-terbaru-baja-inp-di-bualan-juni/",
-    "/cnp-unp/harga-terbaru-baja-inp-di-bualan-maret/"
+    "/cnp-unp/harga-terbaru-baja-inp-di-bualan-maret/",
+    "/cnp-unp/harga-terbaru-baja-cnp-di-bualan-januari/",
+    "/cnp-unp/harga-terbaru-baja-cnp-di-bualan-mei/",
+    "/cnp-unp/harga-terbaru-baja-inp-di-bualan-oktober/",
+    "/cnp-unp/harga-terbaru-baja-unp-di-bualan-januari/",
+    "/cnp-unp/harga-terbaru-baja-unp-di-bualan-juli/",
+    "/cnp-unp/harga-terbaru-baja-unp-di-bualan-maret/",
+    "/cnp-unp/harga-terbaru-baja-unp-di-bualan-mei/",
+    "/cnp-unp/harga-terbaru-baja-unp-di-bualan-september/",
+    "/cnp-unp/harga-terbaru-besi-cnp-di-bualan-agustus/"
   ],
   "failed": {
     "/cnp-unp/harga-terbaru-baja-cnp-di-bualan-januari/": 1,
     "/cnp-unp/harga-terbaru-baja-cnp-di-bualan-mei/": 1,
-    "/cnp-unp/harga-terbaru-baja-inp-di-bualan-april/": 1,
-    "/cnp-unp/harga-terbaru-baja-inp-di-bualan-desember/": 1,
-    "/cnp-unp/harga-terbaru-baja-inp-di-bualan-februari/": 1,
-    "/cnp-unp/harga-terbaru-baja-inp-di-bualan-januari/": 1
+    "/cnp-unp/harga-terbaru-baja-inp-di-bualan-april/": 2,
+    "/cnp-unp/harga-terbaru-baja-inp-di-bualan-desember/": 2,
+    "/cnp-unp/harga-terbaru-baja-inp-di-bualan-februari/": 2,
+    "/cnp-unp/harga-terbaru-baja-inp-di-bualan-januari/": 2,
+    "/cnp-unp/harga-terbaru-baja-inp-di-bualan-november/": 1,
+    "/cnp-unp/harga-terbaru-baja-inp-di-bualan-september/": 1,
+    "/cnp-unp/harga-terbaru-baja-unp-di-bualan-agustus/": 1,
+    "/cnp-unp/harga-terbaru-baja-unp-di-bualan-desember/": 1,
+    "/cnp-unp/harga-terbaru-baja-unp-di-bualan-februari/": 1,
+    "/cnp-unp/harga-terbaru-baja-unp-di-bualan-juni/": 1,
+    "/cnp-unp/harga-terbaru-baja-unp-di-bualan-oktober/": 1
   }
 }
