@@ -30,7 +30,20 @@
     "/cnp-unp/harga-terbaru-besi-cnp-di-bualan-januari/",
     "/cnp-unp/harga-terbaru-besi-cnp-di-bualan-juni/",
     "/cnp-unp/harga-terbaru-besi-cnp-di-bualan-mei/",
-    "/cnp-unp/harga-terbaru-besi-inp-di-bualan-april/"
+    "/cnp-unp/harga-terbaru-besi-inp-di-bualan-april/",
+    "/cnp-unp/harga-terbaru-besi-cnp-di-bualan-april/",
+    "/cnp-unp/harga-terbaru-besi-cnp-di-bualan-desember/",
+    "/cnp-unp/harga-terbaru-besi-cnp-di-bualan-maret/",
+    "/cnp-unp/harga-terbaru-besi-cnp-di-bualan-september/",
+    "/cnp-unp/harga-terbaru-besi-inp-di-bualan-agustus/",
+    "/cnp-unp/harga-terbaru-besi-inp-di-bualan-desember/",
+    "/cnp-unp/harga-terbaru-besi-inp-di-bualan-januari/",
+    "/cnp-unp/harga-terbaru-besi-inp-di-bualan-juli/",
+    "/cnp-unp/harga-terbaru-besi-inp-di-bualan-juni/",
+    "/cnp-unp/harga-terbaru-besi-inp-di-bualan-maret/",
+    "/cnp-unp/harga-terbaru-besi-inp-di-bualan-november/",
+    "/cnp-unp/harga-terbaru-besi-inp-di-bualan-oktober/",
+    "/cnp-unp/harga-terbaru-besi-unp-di-bualan-agustus/"
   ],
   "failed": {
     "/cnp-unp/harga-terbaru-baja-cnp-di-bualan-januari/": 1,
@@ -48,11 +61,15 @@
     "/cnp-unp/harga-terbaru-baja-unp-di-bualan-oktober/": 2,
     "/cnp-unp/harga-terbaru-besi-cnp-di-bualan-april/": 1,
     "/cnp-unp/harga-terbaru-besi-cnp-di-bualan-desember/": 1,
-    "/cnp-unp/harga-terbaru-besi-cnp-di-bualan-juli/": 1,
+    "/cnp-unp/harga-terbaru-besi-cnp-di-bualan-juli/": 2,
     "/cnp-unp/harga-terbaru-besi-cnp-di-bualan-maret/": 1,
-    "/cnp-unp/harga-terbaru-besi-cnp-di-bualan-november/": 1,
-    "/cnp-unp/harga-terbaru-besi-cnp-di-bualan-oktober/": 1,
+    "/cnp-unp/harga-terbaru-besi-cnp-di-bualan-november/": 2,
+    "/cnp-unp/harga-terbaru-besi-cnp-di-bualan-oktober/": 2,
     "/cnp-unp/harga-terbaru-besi-cnp-di-bualan-september/": 1,
-    "/cnp-unp/harga-terbaru-besi-inp-di-bualan-agustus/": 1
+    "/cnp-unp/harga-terbaru-besi-inp-di-bualan-agustus/": 1,
+    "/cnp-unp/harga-terbaru-besi-inp-di-bualan-februari/": 1,
+    "/cnp-unp/harga-terbaru-besi-inp-di-bualan-september/": 1,
+    "/cnp-unp/harga-terbaru-besi-unp-di-bualan-februari/": 1,
+    "/cnp-unp/harga-terbaru-besi-unp-di-bualan-juli/": 1
   }
 }
